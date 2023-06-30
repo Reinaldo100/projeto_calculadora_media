@@ -25,7 +25,7 @@ function adicionaLinha() {
         alert(`A atividade ${inputNomeatividade.value} já foi inserida`);
     }else {
         atividades.push(inputNomeatividade.value);
-    notas.push(parseFloat(inputNotaatividade.value));
+        notas.push(parseFloat(inputNotaatividade.value));
 
     let linha = '<tr>';
     linha += `<td>${inputNomeatividade.value}</td>`
